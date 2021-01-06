@@ -287,7 +287,7 @@ function gifts() {
 
 //function for enemy
 function enemy() {
-if(frameCount%1000===0) { 
+if(frameCount%100===0) { 
   krampus = createSprite(windowWidth+10,invisibleGround.y-80,10,40);
   krampus.velocityX = -12;
   krampus.addImage(krampusImg);
